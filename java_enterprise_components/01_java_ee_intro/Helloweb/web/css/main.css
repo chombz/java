@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+     /* Import fonts css file to use webfontss on the site */
+@import url("fonts.css");
+/* Rules to be used for mobile phone with a maximum screen width of 480px*/
+@import url("mobile.css") screen and (max-width:480px);
+/* Rules to be used for mobile phone with a minimum screen width of 481px*/
+@import url("tablet.css") screen and (min-width:481px);
+/* Rules to be used for mobile phone with a minimum screen width of 481px*/
+@import url("desktop.css") screen and (min-width:801px);
+
+
+/* Style the body */
+body
+{
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	color:#CDCCCC;
+	font-family: 'rubikregular';
+	background-image: url(../images/IMG_7929.JPG);
+}
+/* Style the container div using an id selector*/
+#container
+{
+    margin: 0 auto;
+    background-color: rgba (0,0,0,0.65);
+    padding-left: 2%;
+    padding-right: 2%;
+}

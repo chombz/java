@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* Set the page background colour*/
+body
+{
+	background-color: #00dbff;
+	background-image: url(../images/pexels-karolina-grabowska-4199098.jpg);
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+

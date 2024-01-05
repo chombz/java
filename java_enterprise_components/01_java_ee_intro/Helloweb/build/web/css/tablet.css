@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body
+{
+	background-color: #05A8AA;
+	background-image: url("../images/brian-mcgowan-6edUbq-qUZs-unsplash.jpg");
+	background-position:center;
+	background-attachment:scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
